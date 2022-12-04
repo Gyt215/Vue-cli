@@ -1,0 +1,20 @@
+<template>
+  <div>
+    <Student></Student>
+    <hr />
+    <School></School>
+  </div>
+</template>
+
+<script>
+import Student from "./components/Student.vue";
+import School from "./components/School.vue";
+
+export default {
+  name: "app",
+  components: {
+    Student,
+    School,
+  },
+};
+</script>
